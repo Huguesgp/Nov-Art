@@ -1,0 +1,314 @@
+body
+{
+	background-color: black !important;
+	color: white !important;
+}
+.Prestations
+{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+.Shooting, .Retouche, .Exposition
+{
+	height: 200px;
+	width: 33%;
+	margin: auto;
+	text-align: center;
+}
+h2
+{
+	text-align: center;
+	font-family: 'Squada One', cursive !important;
+	font-size: 50px !important;
+	color: white !important;
+}
+h3
+{
+	font-family: 'Squada One', cursive !important;
+	font-size: 30px !important;
+	text-align: center;
+}
+.pp
+{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius:100px;
+}
+.divpp
+{
+	width: 100%;
+	text-align: center;
+}
+.coordonnées
+{
+	width: 50%;
+	margin: auto;
+	height: 600px;
+}
+.conteneur
+{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.list_icone
+{
+	list-style: none;
+	padding-left: 0px;
+}
+.list_icone li
+{
+	display: inline
+}
+i:hover
+{
+	color: rgb(240, 87, 11);
+}
+.list_icone i
+{
+	font-size: 30px;
+	padding: 30px;
+}
+.formulaire-page-accueil
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 300px;
+}
+.formulair-page-contact
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	height: 500px;
+	margin-bottom: 50px;
+	padding-top: 75px;
+	text-align: center !important;
+	align-items: center;
+}
+button
+{
+	width: 150px;
+	height: 35px;
+	border: 5px;
+	border-radius: 10px;
+
+	text-align: center;
+}
+button:hover
+{
+	background-color: rgb(240, 87, 11) !important;
+	border: 1px solid black;
+	color: black !important;
+}
+.btn
+{
+	border-color: rgb(240, 87, 11) !important;
+	color: rgb(240, 87, 11) !important;
+	text-decoration: bold;
+	text-align: center;
+	margin: 0 auto;
+}
+.btn.btn-primary
+{
+	border-color: rgb(240, 87, 11) !important;
+	background-color: black !important;
+	color: white;
+	text-decoration: bold;
+	text-align: center;
+	margin: 0 auto;
+}
+.btn.btn-primary:hover
+{
+	background-color: rgb(240, 87, 11) !important;
+
+}
+input
+{
+	width: 200px;
+	height: 35px;
+	display: flex;
+	margin: 0 auto;
+}
+.carousel-flex
+{
+	height: 500px;
+	width: 50%;
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+.carousel figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 15s slidy infinite;
+}
+.carousel-galerie
+{
+	height: 500px;
+	width: 50%;
+	overflow: hidden;
+	margin-left: 370px;
+}
+.carousel-galerie figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 15s slidy infinite;
+}
+.carousel-galerie figure img 
+{ width: 20%; height: auto; float: left; }
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+.texte-carousel
+{
+	width: 50%;
+	font-size: 45px;
+	float: right;
+}
+.divcontact
+{
+	width: 50%;
+}
+.conteneur-equipe
+{
+	width: 100%;
+	height: 450px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.divpp-equipe
+{
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+}
+.texte-equipe
+{
+	width: 50%;
+	text-align: center;
+}
+.titre-expo, .titre-presta
+{
+	margin-bottom: 50px;
+}
+.texte-carte
+{
+	text-align: left;
+	padding-left: 100px;
+}
+$('.carousel').carousel({
+  interval: 2000
+})
+.carousel').carousel{
+  interval: 2000
+}
+.conteneur-carousel
+{
+	width: 100%;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: space-around !important;
+}
+.btn-caroussel
+{
+	color: none !important;
+	background-color: none !important;
+}
+.carousel-control-prev, .carousel-control-next
+{
+	margin-top: 180px !important;
+	opacity: 0,5;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover
+{
+	background-color: 
+}
+.texte-expo-carousel
+{
+	font-size: 25px;
+}
+.conteneur-carousel-galerie
+{
+	width: 100%
+	height: 3200px;
+	margin-bottom: 50px;
+}
+.text-presta-invisible
+{
+	visibility: hidden;
+	color: white;
+}
+.text-presta-invisible:hover
+{
+	visibility: visible;
+	color: white;
+}
+.image-presta
+{
+	visibility: visible;
+}
+.image-presta:hover
+{
+	visibility: hidden;
+}
+.conteneur-input
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 550px;
+	height: 100px;
+}
+.form
+{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.forumaire-part1, .forumaire-part2,
+{
+	width: 50%;
+	align-items: center !important;
+	text-align: center !important;
+}
+.formulaire-part0
+{
+	width: 50%;
+	background-image: url("../Visuels/bulle-contact.png");
+	background-position: center;
+}
+.formulaire-part0 background-image
+{
+	visibility: visible;
+	width: 100%;
+}

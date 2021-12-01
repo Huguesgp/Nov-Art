@@ -1,0 +1,43 @@
+.pp
+{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius:100px;
+}
+.divpp
+{
+	width: 33%;
+}
+.coordonnées
+{
+	width: 33%
+	margin: auto;
+}
+.conteneur
+{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.reseaux
+{
+	width: 33%;
+	align-items: center;
+}
+.list_icone
+{
+	list-style: none;
+	padding-left: 0px;
+}
+.list_icone li
+{
+	display: inline
+}
+.list_icone i
+{
+	font-size: 30px;
+	padding: 30px;
+}

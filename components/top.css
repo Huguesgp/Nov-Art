@@ -1,0 +1,57 @@
+.header 
+{
+	width: 100%;
+	height: 800px;
+	background-image: url("../Visuels/Header-novart5.jpg");
+	background-position: center !important;
+	font-family: 'Squada One', cursive !important;
+	display-flex
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+.logo
+{
+	width: 100%;
+	height: 70px;
+	padding-top: 10px;
+}
+.menu
+{
+	width: 100%;
+	height: 100px;
+	font-size: 50px;
+	padding-top: 50px;
+}
+.texte-h1
+{
+	width: 100%;
+	height: 430px;
+	color: white;
+	padding-top: 25px;
+}
+a
+{
+	font-size: 30px;
+	color: white !important;
+	text-decoration: none !important;
+}
+.navbar li
+{
+	display: inline;
+	font-size: 50px;
+	width: 25%;
+	color: white !important;
+}
+.navbar li a:hover
+{
+	text-decoration: underline !important;
+	color: rgb(240, 87, 11) !important;
+}
+h1
+{
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+	font-weight: bold;
+}
